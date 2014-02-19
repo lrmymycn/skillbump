@@ -1,0 +1,25 @@
+/**
+ * Custom CSS
+ */
+
+.navbar{
+    min-height: 32px;
+}
+
+.navbar-brand{
+    padding:5px 12px;
+    height:auto;
+}
+
+.ace-nav > li {
+    line-height: 22px;
+}
+
+.ace-nav > li > a{
+    padding: 5px 12px !important;
+}
+
+.user-info{
+    line-height: 22px;
+    position: static;
+}

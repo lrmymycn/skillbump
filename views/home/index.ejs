@@ -1,8 +1,10 @@
-<div ng-controller="mainController">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#users">Users</a></li>
-    </ul>
-    <span class="ng-view"></span>
+<span navbar></span>
+<div id="main-container" class="main-container" ng-controller="appController">
+    <div class="main-container-inner">
+        <span sidebar></span>
+        <div class="main-content">
+            <span class="ng-view"></span>
+        </div>
+    </div>
 </div>
 

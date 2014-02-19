@@ -1,0 +1,10 @@
+<div id="sidebar" class="sidebar menu-min">
+    <ul class="nav nav-list">
+        <li ng-repeat="menu in menus" ng-class="isActive(menu)">
+            <a href="{{menu.url}}">
+                <i class="{{menu.icon}}"></i>
+                <span class="menu-text"> {{menu.text}} </span>
+            </a>
+        </li>
+    </ul><!-- /.nav-list -->
+</div>
