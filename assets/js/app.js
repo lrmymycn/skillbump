@@ -1,6 +1,6 @@
 'use strict';
 
-var module = angular.module('skillBump', ['ngRoute']);
+var module = angular.module('skillBump', ['ngRoute','ui.bootstrap']);
 
 module.constant('appSettings', {
     apiRoot: '/'

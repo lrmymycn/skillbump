@@ -6,16 +6,16 @@ angular.module('skillBump').factory('userResource', ['$http', 'appSettings', fun
       return $http.post(this.getApiPath() + '/create', userPostModel);
     },
 
-    delete:function(id) {
-      return $http.delete(this.getApiPath() + '/delete?id=' + id);
+    destroy:function(id) {
+      return $http.delete(this.getApiPath() + '/destroy/' + id);
     },
 
-    get:function(id) {
-      return $http.get(this.getApiPath() + '/get?id=' + id);
+    find:function(id) {
+      return $http.get(this.getApiPath() + '/find/' + id);
     },
 
-    getAll: function() {
-      return $http.get(this.getApiPath() + '/getAll');
+    findAll: function() {
+      return $http.get(this.getApiPath());
     },
 
     getApiPath: function () {
